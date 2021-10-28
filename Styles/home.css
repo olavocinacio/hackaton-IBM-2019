@@ -1,0 +1,22 @@
+#app{
+    text-align: center
+}
+
+#app > ul{
+    font-size: 120px;
+    margin-top: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#app > button{
+    background-color: #5f3;
+    border: 0;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#app > button:hover{
+    background-color: #2fb86e;
+}

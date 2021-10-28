@@ -1,0 +1,42 @@
+#app{
+    font-size: 26px;
+    margin-top: 48px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#app ul{
+    font-size: 48px;
+    margin-top: 48px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#voltar{
+    text-align: center;
+    background-color: #f63;
+    border: 0;
+    padding: 4px 6px;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+#submeter{
+    text-align: center;
+    background-color: #5f3;
+    border: 0;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#app > button:hover{
+    background-color: #2fb86e;
+}

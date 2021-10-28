@@ -1,0 +1,39 @@
+#app{
+    font-size: 26px;
+    margin-top: 48px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    font-size: 46px;
+    margin-top: 48px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#resultado{
+    font-size: 85px;
+    color: #459;
+    margin-top: 48px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#voltar{
+    text-align: center;
+    background-color: #f63;
+    border: 0;
+    padding: 4px 6px;
+    font-size: 10px;
+    border-radius: 2px;
+}

@@ -1,0 +1,26 @@
+<html>
+
+    <head>
+        <meta>
+        <title>Dr. Virtual</title>
+    </head>
+
+    <link rel="stylesheet" href="/Styles/teste.css">
+
+    <body>
+        <div id="app">
+            <button id = "voltar" onclick="window.location.href='home.htm'">Voltar</button>
+            <ul>Anexe seu Eletrocardiograma para um resultado mais preciso</ul>
+            <input name="ECG" type="file">
+            <p><b>Quais sintomas você tem?</b></p>
+            Dor de cabeça: <input type="checkbox" name = "sintomas" value = "dor_cabeca"> <br/>
+            Febre: <input type="checkbox" name = "sintomas" value = "febre"> <br/>
+            Problemas de respiração: <input type="checkbox" name = "sintomas" value = "respiracao"> <br/>
+            Dor de garganta: <input type="checkbox" name = "sintomas" value = "garganta"/>
+            <button id = "submeter" onclick=submissao()>Fazer meu teste</button>
+        </div>
+
+        <script src = "/Scripts/actions.js"></script>
+    </body>
+
+</html>
